@@ -5,7 +5,7 @@ export const options5 = {
     },
     title: {
       display: true,
-      text: "Phosphorus",
+      text: "Moisture",
       color: "white",
       font: {
         size: 18,
