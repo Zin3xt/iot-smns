@@ -65,7 +65,7 @@ export default function Graph(props) {
   const pAvarage = calculateAvarage(p);
   const Phosphorus = phosphorusAnalysis(pAvarage);
   const kAvarage = calculateAvarage(k);
-  const Potassium = phosphorusAnalysis(kAvarage);
+  const Potassium = potassiumsAnalysis(kAvarage);
 
   const defaultData = {
     labels: timestamp, //[0,1,2,3,4,5,6....99]
