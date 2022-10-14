@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Graph from "./graph";
 import styles from "../styles/Home.module.css";
+import DatePicker from "./datePicker";
+
 export default function Home() {
   return (
     <>
@@ -8,10 +10,10 @@ export default function Home() {
         <title> IOT-SNMS</title>
         <meta name="keyword" content="web development, programing" />
       </Head>
-      <div className={styles.container}>
-        <h1>IOT-SNMS</h1>
-      </div>
-      <Graph />
+      <h1 className="text-center">IOT-SNMS</h1>
+      <DatePicker />
+
+      {/* <ReadCloudFirestor /> */}
     </>
   );
 }

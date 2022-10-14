@@ -1,4 +1,5 @@
 export const options3 = {
+  responsive: true,
   plugins: {
     Legend: {
       display: true,
@@ -18,7 +19,6 @@ export const options3 = {
       borderWidth: 2,
       borderColor: "blue",
       fill: "start",
-      backgroundColor: "lightblue",
     },
     point: {
       radius: 1,
